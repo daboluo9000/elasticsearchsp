@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("book")
 public class Book implements Serializable {
 	
 	/**

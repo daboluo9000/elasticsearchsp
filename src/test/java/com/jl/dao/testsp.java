@@ -22,7 +22,7 @@ public class testsp {
 		Book book = ac.getBean("book", Book.class);
 		
 		book.setID(1);
-		
+	
 		System.out.println(book.getID());
 		
 	}
